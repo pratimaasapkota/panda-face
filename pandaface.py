@@ -100,3 +100,28 @@ painter.begin_fill()
 painter.circle(5)
 painter.end_fill()
 
+#Draw mouth and nose
+
+painter.color('black', 'black')
+painter.penup()
+painter.setx(0)
+painter.sety(50)
+painter.pendown()
+
+painter.begin_fill()
+painter.circle(10)
+painter.end_fill()
+
+painter.right(90)
+painter.circle(20, 180)
+
+painter.penup()
+painter.setx(0)
+painter.sety(50)
+painter.pendown()
+
+painter.circle(20, -180)
+
+turtle.done()
+
+
