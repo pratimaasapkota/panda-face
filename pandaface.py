@@ -36,3 +36,34 @@ painter.begin_fill()
 painter.right(90)
 painter.circle(30, 260)
 painter.end_fill()
+#Draw left eye
+
+painter.penup()
+painter.setx(-40)
+painter.sety(90)
+painter.pendown()
+
+painter.begin_fill()
+painter.circle(30)
+painter.end_fill()
+
+painter.left(10)
+painter.penup()
+painter.setx(-30)
+painter.sety(110)
+painter.pendown()
+
+painter.color('white', 'white')
+painter.begin_fill()
+painter.circle(15)
+painter.end_fill()
+
+painter.penup()
+painter.setx(-30)
+painter.sety(115)
+painter.pendown()
+
+painter.color('black', 'black')
+painter.begin_fill()
+painter.circle(5)
+painter.end_fill()
