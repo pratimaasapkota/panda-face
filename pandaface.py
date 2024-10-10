@@ -24,3 +24,15 @@ painter.right(90)
 painter.circle(30, -260)
 painter.end_fill()
 
+#Draw left ear
+
+painter.penup()
+painter.setx(-50)
+painter.sety(185)
+painter.pendown()
+
+painter.left(170)
+painter.begin_fill()
+painter.right(90)
+painter.circle(30, 260)
+painter.end_fill()
