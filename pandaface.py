@@ -121,6 +121,7 @@ painter.sety(50)
 painter.pendown()
 painter.circle(20, -180)
 turtle.done()
+turtle.done()
 
 
 
